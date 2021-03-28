@@ -1,0 +1,26 @@
+{
+  "name": "xwlb",
+  "version": "1.0.0",
+  "description": "新闻联播开放数据",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/china-data/xwlb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/china-data/xwlb/issues"
+  },
+  "homepage": "https://github.com/china-data/xwlb#readme",
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1"
+  }
+}
