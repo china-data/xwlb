@@ -2,8 +2,10 @@ const loadData = require('../src/loadData');
 const moment = require('moment');
 
 // 最早的 20120702
-const START = new Date('2013-08-27').getTime();
-const END = new Date('2014-12-31').getTime();
+// const START = new Date('2013-08-27').getTime();
+// const END = new Date('2014-12-31').getTime();
+const START = new Date('2015-01-01').getTime();
+const END = new Date('2016-12-31').getTime();
 
 !(async () => {
 
